@@ -43,6 +43,12 @@ christina.nelson@mail.mcgill.ca
 
 ==========================================================================
 
+Special thanks to Alice Curtin for compiling the Resouces page!
+
+
+
+==========================================================================
+
 Heavily modified fom the wounderful resources:
 
 Free Responsive HTML5 Template

@@ -13,8 +13,6 @@ Instructions to clone, push, and edit this repository:
 
 $ git clone https://github.com/edi-mcgill/edi.git
 
-please make sure to use the EDI coordinator credentials.
-
 [2] Make your wonderful modifications ;)
 
 [3] In your terminal you can test your development by the following. eg.

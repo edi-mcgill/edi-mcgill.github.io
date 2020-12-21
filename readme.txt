@@ -4,6 +4,7 @@ https://www.physics.mcgill.ca/edi/
 
 Author: Christina Nelson
 
+Please use your EDI coordinator credential when pushing to repository.
 
 ==========================================================================
 

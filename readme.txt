@@ -6,6 +6,10 @@ Author: Christina Nelson
 
 Please use your EDI coordinator credentials when pushing to repository.
 
+The EDI website is a work in progress and is being developed from the 
+Women In Physics website as reference: 
+https://wipmcgill.wixsite.com/wipmcgill
+
 ==========================================================================
 
 Instructions to clone, push, and edit this repository:
@@ -44,7 +48,6 @@ christina.nelson@mail.mcgill.ca
 ==========================================================================
 
 Special thanks to Alice Curtin for compiling the Resouces page!
-
 
 
 ==========================================================================

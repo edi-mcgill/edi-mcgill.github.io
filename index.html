@@ -50,14 +50,17 @@
 </head>
 <body>
 
-  <div id="fb-root"></div>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0" nonce="07o4VoeV"></script>
+
+  <!--<div id="fb-root"></div>
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
     js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=207087449372135";
     fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));</script>-->
 
   
   <div id="wrapper">
@@ -80,6 +83,7 @@
                         <li class="active"><a href="index.html">En</a></li> 
                         <li class="active"><a href="fr/index.html">Fr</a></li> 
 			<li class="active"><a href="resources.html">Resources</a></li>
+                        <li class="active"><a href="events.html">Events</a></li>
 			<li class="active"><a href="library.html">Equity Library</a></li>
                     </ul>
                 </div>
@@ -125,7 +129,7 @@
 		<div class="column middle">
 		  <div class="aligncenter"><h1 class="aligncenter">Equity, Diversity, & Inclusion</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span>The Equity, Diversity, and Inclusion (EDI) committee in the Department of Physics at McGill is a group of students, postdoctoral fellows, staff, and faculty members that aims to create a working environment that is safe and inclusive. We achieve these goals by
 		    <ul style="text-align: left; margin-bottom: 5px;">
-		      <li>Organizing a variety of social and educational activities in the physics department (e.g., trivia nights, annual EDI colloquia),</li>
+		      <li>Organizing a variety of social and educational activities and <a href="events.html">events</a> in the physics department (e.g., trivia nights, annual EDI colloquia),</li>
 		      <li>Suggesting to and negotiating with the department to improve existing intra-departmental policies (e.g., parental leave),</li>
 		      <li>Directing members of the physics department to relevant <a href="resources.html">EDI resources</a>,</li>
 		      <li>And developing/participating in outreach to the community including CEGEPs with a focus on both science and the importance of diversity in the field.</li>
@@ -148,13 +152,14 @@
 		  </div>		
 		</div>
 		<div class="column right">
-		  <div style="font-size:20px" class="aligncenter">Facebook Timeline & Events</div>
+                <br><br>
+		  <!--<div style="font-size:20px" class="aligncenter">Check us out on Facebook</div> -->
 		  <div class="fb-page"
-		       data-tabs="timeline,events"
-		       data-href="https://www.facebook.com/EDIphysicsmcgill/"
-		       data-width="380"
-		       data-hide-cover="false">
-		  </div>
+		  data-tabs="timeline,events"
+		  data-href="https://www.facebook.com/EDIphysicsmcgill"
+		  data-width="380"
+		  data-hide-cover="false"
+                  data-show-facepile="false"></div> 
 		</div>
 	      </div>
 	    </div>
@@ -163,7 +168,7 @@
 	<section id="content">
 	</div>
 	</section>
-	<section class="courses">
+	<section class="courses"> 
 	  <div class="container"> 
 
 <hr>
@@ -172,14 +177,27 @@
 
 <!-- Heading -->
 <div class="block-heading-six">
-  <h3 class="bg-color">Committee members</h3>
+  <h3 class="bg-color">Committee Chairs</h3>
 </div>
 <br>
 
-<!-- Our team starts -->
+<!-- Chairs start -->
+
 <div class="team-six">
   <div class="row">
   <div class="aligncenter">
+
+    <div class="col-md-3 col-sm-6">
+      <!-- Team Member -->
+      <div class="team-member">
+        <!-- Image -->
+        <img class="img-responsive" src="img/Maloney-125px.jpg" alt="" height="225px" width="225px">
+        <!-- Name -->
+        <h4>Alex Maloney</h4>
+        <span class="deg"><br><p style="color:#505050;">Co-Chair<br>maloney at physics.mcgill.ca</p></span>
+      </div>
+    </div>
+
     <div class="col-md-3 col-sm-6">
       <!-- Team Member -->
       <div class="team-member">
@@ -190,26 +208,22 @@
         <span class="deg"><br><p style="color:#505050;">Co-Chair<br>jeon at physics.mcgill.ca</p></span>
       </div>
     </div>
-    <div class="col-md-3 col-sm-6">
-      <!-- Team Member -->
-      <div class="team-member">
-        <!-- Image -->
-        <img class="img-responsive" src="img/Martin.JPG" alt="" height="225px" width="225px">
-        <!-- Name -->
-        <h4>Martin Grant</h4>
-        <span class="deg"><br><p style="color:#505050;">Co-Chair (Fall 2021)<br>martin.grant at mcgill.ca</p></span>
-      </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <!-- Team Member -->
-      <div class="team-member">
-        <!-- Image -->
-        <img class="img-responsive" src="img/Maloney-125px.jpg" alt="" height="225px" width="225px">
-        <!-- Name -->
-        <h4>Alex Maloney</h4>
-        <span class="deg"><br><p style="color:#505050;">Co-Chair (Winter 2022)<br>maloney at physics.mcgill.ca</p></span>
-      </div>
-    </div>
+</div>
+</div>
+</div>
+
+<!-- Heading -->
+<div class="block-heading-six">
+  <h3 class="bg-color">Committee Members</h3>
+</div>
+<br>
+
+<!-- Team start -->
+
+
+<div class="team-six">
+  <div class="row">
+  <div class="aligncenter">
 
     <div class="col-md-3 col-sm-6">
       <!-- Team Member -->
@@ -221,14 +235,6 @@
         <span class="deg"><br><p style="color:#505050;">Ex-officio, Outreach Committee Chair<br>acliu at physics.mcgill.ca</p></span>
       </div>
     </div>
-  </div>
-</div>
-</div>
-
-
-<div class="team-six">
-  <div class="row">
-  <div class="aligncenter">  
     <div class="col-md-3 col-sm-6">
       <!-- Team Member -->
       <div class="team-member">
@@ -255,21 +261,10 @@
       <!-- Team Member -->
       <div class="team-member">
         <!-- Image -->
-        <img class="img-responsive" src="img/dageKristen.png" alt="" height="225px" width="225px">
+        <img class="img-responsive" src="img/photoElvira_crop.jpg" alt="" height="225px" width="225px">
         <!-- Name -->
-        <h4>Kristen Dage</h4>
-        <span class="deg"><br><p style="color:#505050;">Postdoc liaison<br>kristen.dage at mail.mcgill.ca</p></span>
-      </div>
-    </div>
-
-    <div class="col-md-3 col-sm-6">
-      <!-- Team Member -->
-      <div class="team-member">
-        <!-- Image -->
-        <img class="img-responsive" src="img/Vishwangi_Shah_crop.jpg" alt="" height="225px" width="225px">
-        <!-- Name -->
-        <h4>Vishwangi Shah</h4>
-        <span class="deg"><br><p style="color:#505050;">Graduate liaison<br> vishwangi.shah at mail.mcgill.ca</p></span>
+        <h4>Elvira Vazquez Avila</h4>
+        <span class="deg"><br><p style="color:#505050;">Undergraduate liaison<br>elvira.vazquezavila at mail.mcgill.ca</p></span>
       </div>
     </div>
   </div>
@@ -279,16 +274,7 @@
 <div class="team-six">
   <div class="row">
   <div class="aligncenter"> 
-    <div class="col-md-3 col-sm-6">
-      <!-- Team Member -->
-      <div class="team-member">
-        <!-- Image -->
-        <img class="img-responsive" src="img/photoElvira_crop.jpg" alt="" height="225px" width="225px">
-        <!-- Name -->
-        <h4>Elvira Vazquez Avila</h4>
-        <span class="deg"><br><p style="color:#505050;">Undergraduate liaison<br>elvira.vazquezavila at mail.mcgill.ca</p></span>
-      </div>
-    </div>
+
 <div class="col-md-3 col-sm-6">
       <!-- Team Member -->
       <div class="team-member">
@@ -304,18 +290,72 @@
       <!-- Team Member -->
       <div class="team-member">
         <!-- Image -->
+        <img class="img-responsive" src="img/dageKristen.png" alt="" height="225px" width="225px">
+        <!-- Name -->
+        <h4>Kristen Dage</h4>
+        <span class="deg"><br><p style="color:#505050;">Postdoc liaison<br>kristen.dage at mail.mcgill.ca</p></span>
+      </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <!-- Team Member -->
+      <div class="team-member">
+        <!-- Image -->
         <img class="img-responsive" src="img/Lili_new2.jpg" alt="" height="225px" width="225px">
         <!-- Name -->
         <h4>Lili Zeng</h4>
         <span class="deg"><br><p style="color:#505050;">EDI Coordinator<br>lili.zeng at mail.mcgill.ca</p></span>
       </div>    
     </div>
+
+    <div class="col-md-3 col-sm-6">
+      <!-- Team Member -->
+      <div class="team-member">
+        <!-- Image -->
+        <img class="img-responsive" src="img/Vishwangi_Shah_crop.jpg" alt="" height="225px" width="225px">
+        <!-- Name -->
+        <h4>Vishwangi Shah</h4>
+        <span class="deg"><br><p style="color:#505050;">Graduate liaison<br> vishwangi.shah at mail.mcgill.ca</p></span>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>
+
+
+<div class="team-six">
+  <div class="row">
+  <div class="aligncenter">  
+
+    <div class="col-md-3 col-sm-6">
+      <!-- Team Member -->
+      <div class="team-member">
+        <!-- Image -->
+        <img class="img-responsive" src="img/2019_Zoe_Kearney_js_IMG_1303.jpg" alt="" height="225px" width="225px">
+        <!-- Name -->
+        <h4>Zoe Kearney</h4>
+        <span class="deg"><br><p style="color:#505050;">EDI Coordinator<br>zoe.kearney at mail.mcgill.ca</p></span>
+      </div>    
+    </div>
+
   </div>
 </div>
 </div>
 
 <!-- Old team members -->
 <!--   
+    <div class="col-md-3 col-sm-6">
+      <!- - Team Member - ->
+      <div class="team-member">
+        <!- - Image - ->
+        <img class="img-responsive" src="img/Martin.JPG" alt="" height="225px" width="225px">
+        <!- - Name - ->
+        <h4>Martin Grant</h4>
+        <span class="deg"><br><p style="color:#505050;">Co-Chair (Fall 2021)<br>martin.grant at mcgill.ca</p></span>
+      </div>
+    </div>
+
 <div class="col-md-3 col-sm-6">
       <!- - Team Member - ->
       <div class="team-member">
@@ -395,7 +435,9 @@
 		<div class="row">
 			<div class="col-lg-6">
 			  <ul>
-			    <i>McGill University is on land which has long served as a site of meeting and exchange amongst Indigenous peoples, including the Haudenosaunee and Anishinabeg nations. We acknowledge and thank the diverse Indigenous people whose footsteps have marked this territory on which peoples of the world now gather.</i>
+			    <i>McGill University is on land which has long served as a site of meeting and exchange amongst Indigenous peoples, including the Haudenosaunee and Anishinabeg nations. We acknowledge and thank the diverse Indigenous people whose footsteps have marked this territory on which peoples of the world now gather.
+<br> <br>
+Learn about the land and peoples of Tiohti&agrave;:ke / Montreal <a href="https://www.mcgill.ca/indigenous/land-and-peoples/learn-about-land-and-peoples-tiohtiake-montreal">*here*</a></i>
 			  </ul>
 			</div>
 			<div class="col-lg-3">
